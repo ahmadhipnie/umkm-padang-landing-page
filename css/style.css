@@ -179,6 +179,14 @@ header {
     font-size: 1.5rem;
     font-weight: bold;
     transition: var(--transition);
+    overflow: hidden;
+}
+
+.logo-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .logo:hover .logo-icon {
